@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+section#celular{
+    height: 500px;
+    width: 250px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: url(../imagens/pngegg.png);
+    background-repeat: no-repeat;
+    
+}
+
+section#redes{
+    text-align: center;
+}
+
+section#redes img{
+    width: 45px;
+    margin: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 1px solid lightgray;
+    transform: translate(-3px, -3px);
+    transition: transform 0.2s, border 0.5s;
+}
+
+iframe#tela{
+    position: relative;
+    top: 12px;
+    left: 14px;
+    width: 220px;
+    height: 476px;
+    border-radius: 28px;
+}
